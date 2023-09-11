@@ -24,6 +24,12 @@ html {
     border-radius: 10px;
   }
   
+  @media (max-width: 365px){
+    .light .login-box{
+      width: 300px;
+    }
+  }
+
   .light .login-box h2 {
     margin: 0 0 30px;
     padding: 0;

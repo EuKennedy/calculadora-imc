@@ -22,6 +22,12 @@ body {
   border-radius: 10px;
 }
 
+@media (max-width: 365px){
+  .login-box{
+    width: 300px;
+  }
+}
+
 .login-box h2 {
   margin: 0 0 30px;
   padding: 0;
@@ -298,3 +304,5 @@ box-shadow: 0 0 1px #183153;
 .input:checked + .slider:before {
 transform: translateX(30px);
 }
+
+/* responsive part */
