@@ -9,7 +9,29 @@ body {
   background: linear-gradient(#141e30, #243b55);
 }
 
+.icons{
+  display: flex;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.icons a:hover{
+  transition: 1000s;
+}
+
+.github{
+  width: 30%;
+  margin-left: 40%;
+}
+
+.insta{
+  width: 30%;
+  margin-right: 40%;
+}
+
 .login-box {
+  display: inline-block;
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,6 +48,10 @@ body {
   .login-box{
     width: 300px;
   }
+}
+
+.login-box #switch{
+  margin-bottom: 34px;
 }
 
 .login-box h2 {
