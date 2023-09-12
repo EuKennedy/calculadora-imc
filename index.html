@@ -16,31 +16,32 @@
         <input type="checkbox" class="input">
         <span id="slider"></span>
       </label>
-      <h2>CALCULE SEU IMC</h2>
+      <h2 id="title">CALCULE SEU IMC</h2>
       <form action="/" id="form" method="POST">
         <div class="user-box">
           <input type="text" name="peso" required="" id="peso">
-          <label>PESO</label>
+          <label id="weight">PESO</label>
         </div>
         <div class="user-box">
           <input type="text" name="altura" required="" id="altura">
-          <label>ALTURA EM CM</label>
+          <label id="height">ALTURA EM CM</label>
         </div>
         <a href="#">
           <span></span>
           <span></span>
           <span></span>
           <span></span>
-          <input type="submit" value="CALCULAR" id="enviar"/> 
-        </a>
+          <input type="submit" value="CALCULAR" id="enviar"> 
+        </a>  
       </form>
       <div id="resultado"></div>
       <div class="icons">
-        <a href="https://github.com/EuKennedy" class="git"><img src="/img/icons8-github-256.png" alt="github-logo" class="github-logo"></a>
-        <a href="https://www.instagram.com/knndy.rodrigues/" class="ig"><img src="/img/icons8-instagram-256.png" alt="instagram-logo" class="insta"></a>
+        <a href="https://github.com/EuKennedy" class="git"><img src="/img/icons8-github-256.png" alt="github-logo" class="github"></a>
+        <a href="https://www.instagram.com/knndy.rodrigues/" class="ig"><img src="/img/icons8-instagram-256.png" alt="instagram" class="insta"></a>
       </div>
     </div>
     <script src="js/app.js"></script>
     <script src="js/dark.js"></script>
+    <script src="/js/language.js"></script>
   </body>
 </html>
